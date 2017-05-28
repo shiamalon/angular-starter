@@ -29,7 +29,7 @@ import { WindowNative, NSAppService } from './mobile/core/index';
  * Seed provided configuration options
  */
 import { Config } from './app/shared/core/index';
-import { Page } from 'ui/page';
+import { Page } from 'tns-core-modules/ui/page';
 Config.PageClass = Page;
 
 // (required) platform target (allows component decorators to use the right view template)

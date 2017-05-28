@@ -3,8 +3,8 @@ import { Router } from '@angular/router';
 import { NSLocationStrategy } from 'nativescript-angular/router/ns-location-strategy';
 
 // nativescript
-import * as nsApp from 'application';
-import { isAndroid, isIOS } from 'platform';
+import * as nsApp from 'tns-core-modules/application';
+import { isAndroid, isIOS } from 'tns-core-modules/platform';
 
 if (isIOS) {
   /*

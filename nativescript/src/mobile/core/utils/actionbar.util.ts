@@ -1,7 +1,7 @@
-import { topmost } from 'ui/frame';
-import { ActionItem, ActionItems } from 'ui/action-bar';
-import * as app from 'application';
-import { device, isAndroid } from 'platform';
+import { topmost } from 'tns-core-modules/ui/frame/';
+import { ActionItem, ActionItems } from 'tns-core-modules/ui/action-bar';
+import * as app from 'tns-core-modules/application';
+import { device, isAndroid } from 'tns-core-modules/platform';
 import { Color } from 'color';
 declare var android;
 

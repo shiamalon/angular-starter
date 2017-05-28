@@ -1,6 +1,6 @@
 // nativescript
-import * as dialogs from 'ui/dialogs';
-import { device } from 'platform';
+import * as dialogs from 'tns-core-modules/ui/dialogs';
+import { device } from 'tns-core-modules/platform';
 
 // app
 import { IWindow } from '../../../app/shared/core/interfaces/iwindow';
